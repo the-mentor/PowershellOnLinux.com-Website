@@ -1,6 +1,7 @@
 <#
 Version 0.2
 #>
+
 Import-Module -Name $PSScriptRoot\Modules\UniversalDashboard.Helmet
 Import-Module -Name $PSScriptRoot\Modules\UniversalDashboard.Markdown
 
@@ -14,9 +15,9 @@ $LogoImg = New-UDImage -Url $LogoImgURL -Height 40 -Width 50
 $EndpointInitialization = New-UDEndpointInitialization -Module @("$PSScriptRoot\Modules\UniversalDashboard.Markdown") -Variable @("MarkdownFolder",'PSScriptRoot')
 
 $Pages = @()
-$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "pages\home_page.ps1")
-$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "pages\contact_page.ps1")
-$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "pages\fav_modules_page.ps1")
+$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "Pages\home_page.ps1")
+$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "Pages\contact_page.ps1")
+$Pages += . (Join-Path -Path $PSScriptRoot -ChildPath "Pages\fav_modules_page.ps1")
 
 $Navigation = New-UDSideNav -Content {
     New-UDSideNavItem -Text "Home" -Url "Home" -Icon Home
