@@ -60,11 +60,12 @@ PowerCLI runs in PowerShell on Linux, macOS and Windows operating systems.
 Install-Module VMware.PowerCLI
 ```
 
+---
 #### FreeNas
 
 ##### Description
 If you want to manage FreeNAS/TrueNAS servers from PowerShell on Linux/Mac/Windows this is the module for you.  
-This module uses the FreeNas and TrueNas Rest v1.0 API 
+This module uses the FreeNas and TrueNas Rest v1.0 API.   
 You can find more information in this [Blog Post](https://jm2k69.github.io/2019-03-18-PowerShell-Module-for-FreeNas-and-TrueNas/)
 
 [GitHub](https://github.com/JM2K69/FreeNas)
