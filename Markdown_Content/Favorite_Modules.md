@@ -38,7 +38,7 @@ At the time of this writing the module is only 75% compatible with Linux but hop
 
 dbatools is a free PowerShell module with over 500 SQL Server administration, best practice and migration commands included.
 
-[Website](https://dbatools.io/), [GitHub](https://github.com/adamdriscoll/selenium-powershell), [Get Started](https://dbatools.io/getting-started/)
+[Website](https://dbatools.io/), [GitHub](https://github.com/sqlcollaborative/dbatools), [Get Started](https://dbatools.io/getting-started/)
 
 ##### Install
 
@@ -74,4 +74,24 @@ You can find more information in this [Blog Post](https://jm2k69.github.io/2019-
 
 ```
 Install-Module FreeNAS
+```
+
+---
+#### Posh-Git
+
+##### Description
+Posh-Git is a PowerShell module that integrates Git and PowerShell by providing Git status summary information that can be displayed in the PowerShell prompt, e.g.:  
+<img src='https://raw.githubusercontent.com/wiki/dahlbyk/posh-git/images/PromptDefaultLong.png'>  
+posh-git also provides tab completion support for common git commands, branch names, paths and more.
+For example, with posh-git, PowerShell can tab complete git commands like `checkout` by typing `git ch` and pressing
+the <kbd>tab</kbd> key. That will tab complete to `git checkout` and if you keep pressing <kbd>tab</kbd>, it will
+cycle through other command matches such as `cherry` and `cherry-pick`. You can also tab complete remote names and
+branch names e.g.: `git pull or<tab> ma<tab>` tab completes to `git pull origin master`.
+
+[Website](http://dahlbyk.github.io/posh-git/), [GitHub](https://github.com/dahlbyk/posh-git)
+
+##### Install
+
+```
+Install-Module Posh-Git
 ```
