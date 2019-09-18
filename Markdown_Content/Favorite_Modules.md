@@ -95,3 +95,49 @@ branch names e.g.: `git pull or<tab> ma<tab>` tab completes to `git pull origin 
 ```
 Install-Module Posh-Git
 ```
+
+---
+#### PSGSuite
+
+##### Description
+PSGSuite is a module wrapping Google's .NET SDKs to enable automation of G Suite admin operations, including Gmail and Drive interaction.
+It is designed to work anywhere PowerShell runs and includes automated CI testing pre-deployment on Ubuntu images, both for the current stable release of PowerShell Core as well as the latest PowerShell Preview release via custom Docker container running Ubuntu 18.04. 
+PSGSuite also works with free Gmail and non-admin G Suite accounts for easy Gmail, Drive and Calendar interaction without the need for a full G Suite admin account to use.
+
+[Website & Documentation](https://psgsuite.io/), [GitHub](https://github.com/scrthq/PSGSuite)
+
+##### Install
+
+```
+Install-Module PSGSuite
+```
+
+---
+#### VaporShell
+
+##### Description
+VaporShell is a module that abstracts AWS CloudFormation template building in JSON/YAML into full, dynamic PowerShell code. It features input type validation to ensure that the resources you add to your template are correct before deploying, as well as full CloudFormation stack management by leveraging AWS' .NET SDK underneath the hood.
+It is designed to work anywhere PowerShell runs and includes automated CI testing pre-deployment on Ubuntu images, both for the current stable release of PowerShell Core as well as the latest PowerShell Preview release via custom Docker container running Ubuntu 18.04.
+
+[Website & Documentation](https://vaporshell.io/), [GitHub](https://github.com/scrthq/VaporShell)
+
+##### Install
+
+```
+Install-Module VaporShell
+```
+
+---
+#### PSProfile
+
+##### Description
+PSProfile is a module designed for PowerShell profile management, which includes a lot of features focused around increasing productivity from your console. It includes features to easily tab-complete common Git project folders on your machine, manage various PowerShell prompts, as well as provide handy quality-of-life improvements while working in a PowerShell console.
+It is designed to work anywhere PowerShell runs and includes automated CI testing pre-deployment on Ubuntu images, both for the current stable release of PowerShell Core as well as the latest PowerShell Preview release via custom Docker container running Ubuntu 18.04.
+
+[Documentation](https://github.com/scrthq/PSProfile/wiki), [GitHub](https://github.com/scrthq/PSProfile)
+
+##### Install
+
+```
+Install-Module PSProfile
+```
