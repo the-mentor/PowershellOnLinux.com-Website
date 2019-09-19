@@ -95,3 +95,20 @@ branch names e.g.: `git pull or<tab> ma<tab>` tab completes to `git pull origin 
 ```
 Install-Module Posh-Git
 ```
+
+---
+#### Join-Object
+
+##### Description
+Join-Object LINQ Edition.
+Join data from two sets of objects based on a common value.
+Aims to provide the exact functionality of [the original Join-Object](https://github.com/RamblingCookieMonster/PowerShell/blob/master/Join-Object.ps1) with much better performance and additional features. Initial testing shows at last 100 times faster. 
+More information at GitHub.
+
+[GitHub](https://github.com/ili101/Join-Object)
+
+##### Install
+
+```
+Install-Module Join-Object
+```
