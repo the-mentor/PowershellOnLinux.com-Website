@@ -142,3 +142,17 @@ It is designed to work anywhere PowerShell runs and includes automated CI testin
 ```
 Install-Module VaporShell
 ```
+
+---
+#### Pode
+
+##### Description
+Pode is a cross-platform PowerShell framework, completely written in PowerShell, for creating web servers to host REST APIs, Web Pages, and SMTP/TCP Servers. Pode also allows you to render dynamic files using template engines, and has support for authentication and logging. There are many more features, including Azure Functions and AWS Lambda support.
+
+[Website & Documentation](https://badgerati.github.io/Pode/), [GitHub](https://github.com/Badgerati/Pode)
+
+##### Install
+
+```
+Install-Module Pode
+```
