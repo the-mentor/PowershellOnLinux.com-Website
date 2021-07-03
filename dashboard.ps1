@@ -26,6 +26,7 @@ $Navigation = New-UDSideNav -Content {
     New-UDSideNavItem -Text "PowerShellOnLinux Group"  -Icon Telegram -OnClick { Invoke-UDRedirect -Url "https://t.me/PowershellOnLinux" -OpenInNewWindow }
     New-UDSideNavItem -Text "IL PowerShell Group"  -Icon Telegram  -OnClick { Invoke-UDRedirect -Url "https://t.me/IsraelPowershellUserGroup" -OpenInNewWindow }
     New-UDSideNavItem -Text "IL Linux User Group"  -Icon Telegram  -OnClick { Invoke-UDRedirect -Url "https://t.me/ILLUG" -OpenInNewWindow }
+    New-UDSideNavItem -Text "PowerShellOnLinux Group"  -OnClick { Invoke-UDRedirect -Url "https://matrix.to/#/!ftrCnWRocDJueqVraQ:matrix.org?via=matrix.org&via=poshcode.org&via=t2bot.io" -OpenInNewWindow }
     New-UDSideNavItem -Text "UD Documentation"  -Icon Book -OnClick { Invoke-UDRedirect -Url "https://docs.universaldashboard.io" -OpenInNewWindow }
     New-UDSideNavItem -Text "Contact" -Url "/Contact" -Icon Phone 
 
