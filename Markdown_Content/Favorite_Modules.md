@@ -2,21 +2,35 @@
 
 - Below you will find a list of **PowerShell Modules** that we've found useful.
 - The modules were tested on Linux and verified to work.
---- 
-#### UniversalDashboard.Community
+---
+#### Pode Web
 ##### Note
 The PowerShellOnLinux.com website is built on this modules.
 
 ##### Description
-PowerShell Universal Dashboard is a web framework for PowerShell developers. Create websites, REST APIs and dashboards with only PowerShell script. The client and server side code for the dashboard is authored completely in PowerShell. Charts, monitors, tables and grids can easily be created with the cmdlets included with the module.The module is cross-platform and will run anywhere Windows PowerShell or PowerShell Core can run.  
-[Website](https://universaldashboard.io/), [GitHub](https://github.com/ironmansoftware/universal-dashboard),  [Get Started](https://docs.universaldashboard.io/getting-started)
+This is a web template framework for use with the Pode PowerShell web server (v2.2.0+).
+It allows you to build web pages purely with PowerShell - no HTML, CSS, or JavaScript knowledge required!
+You can build charts, forms, tables, general text, tabs, login pages, etc. There's a light, dark, and terminal themes, and you can supply a custom CSS file.
+
+[Website & Documentation](https://badgerati.github.io/Pode.Web/), [GitHub](https://github.com/Badgerati/Pode.Web)
 
 ##### Install
 
 ```
-Install-Module UniversalDashboard.Community -AcceptLicense
+Install-Module -Name Pode.Web
 ```
+---
+#### Pode
+##### Description
+Pode is a cross-platform PowerShell framework, completely written in PowerShell, for creating web servers to host REST APIs, Web Pages, and SMTP/TCP Servers. Pode also allows you to render dynamic files using template engines, and has support for authentication and logging. There are many more features, including Azure Functions and AWS Lambda support.
 
+[Website & Documentation](https://badgerati.github.io/Pode/), [GitHub](https://github.com/Badgerati/Pode)
+
+##### Install
+
+```
+Install-Module Pode
+```
 --- 
 #### Selenium PowerShell
 
@@ -141,18 +155,4 @@ It is designed to work anywhere PowerShell runs and includes automated CI testin
 
 ```
 Install-Module VaporShell
-```
-
----
-#### Pode
-
-##### Description
-Pode is a cross-platform PowerShell framework, completely written in PowerShell, for creating web servers to host REST APIs, Web Pages, and SMTP/TCP Servers. Pode also allows you to render dynamic files using template engines, and has support for authentication and logging. There are many more features, including Azure Functions and AWS Lambda support.
-
-[Website & Documentation](https://badgerati.github.io/Pode/), [GitHub](https://github.com/Badgerati/Pode)
-
-##### Install
-
-```
-Install-Module Pode
 ```
