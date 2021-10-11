@@ -156,3 +156,17 @@ It is designed to work anywhere PowerShell runs and includes automated CI testin
 ```
 Install-Module VaporShell
 ```
+---
+#### PowerVRA
+
+##### Description
+PowervRA is a PowerShell module built on top of the services exposed by the vRealize Automation REST API.
+
+Note: this module is a community project and is not in any way supported by VMware.
+
+[Website & Documentation](https://jakkulabs.github.io/PowervRA/), [GitHub](https://github.com/jakkulabs/PowervRA)
+
+##### Install
+
+```
+Install-Module -Name PowervRA
