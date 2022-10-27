@@ -61,6 +61,27 @@ Install-Module dbatools
 ```
 
 ---
+#### 
+Invoke-Build
+##### Description
+Invoke-Build is a build and test automation tool which invokes tasks defined in PowerShell v2.0+ scripts. It is similar to psake but arguably easier to use and more powerful. It is complete, bug free, well covered by tests.
+
+In addition to basic task processing the engine supports
+
+Incremental tasks with effectively processed inputs and outputs.
+Persistent builds which can be resumed after interruptions.
+Parallel builds in separate workspaces with common stats.
+Batch invocation of tests composed as tasks.
+Ability to define new classes of tasks.
+
+[Documentation](https://github.com/nightroman/Invoke-Build/wiki), [GitHub](https://github.com/nightroman/Invoke-Build)
+
+##### Install
+
+```
+Install-Module -Name InvokeBuild
+```
+---
 #### VMware PowerCLI
 ##### Description
 VMware describes PowerCLI as a powerful command-line tool that lets you automate all aspects of vSphere management, including network, storage, VM, guest OS and more. 
